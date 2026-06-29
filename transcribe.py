@@ -2,7 +2,7 @@ import whisper
 
 # Load the base model (downloads ~145MB first time — normal)
 print("⏳ Loading Whisper model...")
-model = whisper.load_model("base")
+model = whisper.load_model("small")
 print("✅ Model loaded!")
 
 # Transcribe your recording

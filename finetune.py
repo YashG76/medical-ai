@@ -1,5 +1,5 @@
 # Install dependencies
-!pip install -q transformers datasets evaluate jiwer accelerate soundfile librosa
+# !pip install -q transformers datasets evaluate jiwer accelerate soundfile librosa
 
 from datasets import load_dataset, DatasetDict
 from transformers import WhisperProcessor, WhisperForConditionalGeneration, Seq2SeqTrainingArguments, Seq2SeqTrainer
